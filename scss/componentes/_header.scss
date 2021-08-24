@@ -1,0 +1,85 @@
+header {
+  background-image: url('../images/space-background.webp');
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+  .nav-container {
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    nav {
+      padding-top: 50px;
+      padding-right: 50px;
+  
+      li {
+        display: inline-block;
+        margin-right: 25px;
+      }
+
+      a {
+        transition: color 0.5s;
+
+        &:hover {
+          color: rgb(236, 29, 81);
+        }
+      }
+
+      .link-nav {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+      }
+    }
+
+    img {
+      width: fit-content;
+      height: fit-content;
+      padding-top: 35px;
+      padding-left: 50px;
+    }
+  }
+
+  .header-presentation-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 0px;
+
+    .header-text-content {
+      width: 25%;
+      height: auto;
+      text-align: center;
+
+      p {
+        margin: 20px 0;
+        font-size: 20px;
+      }
+
+      h1 {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+      }
+    }
+  }
+
+  .dita-logo-content {
+    width: 30%;
+    height: auto;
+    margin-left: 100px;
+
+    .dita-logo {
+      height: 450px;
+      width: 100%;
+    }
+  }
+
+  h1, p, a {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+  }
+}

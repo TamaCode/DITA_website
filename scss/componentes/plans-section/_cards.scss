@@ -1,0 +1,45 @@
+.plan-cards {
+  margin-bottom: 150px;
+
+  .cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+      text-align: center;
+      font-family: 'Kanit', sans-serif;
+      padding: 0;
+      border: none;
+
+      .card-header {
+        background-color: #732BEB;
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0;
+      }
+
+      .card-body {
+        background-color: rgb(246, 240, 250);
+        border: 1px solid lightgray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        h5 {
+          font-weight: 500;
+          font-size: 25px;
+          margin: 30px 0;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

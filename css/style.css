@@ -1,0 +1,233 @@
+header {
+  background-image: url("../images/space-background.webp");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+header .nav-container {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .nav-container nav {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+header .nav-container nav li {
+  display: inline-block;
+  margin-right: 25px;
+}
+header .nav-container nav a {
+  transition: color 0.5s;
+}
+header .nav-container nav a:hover {
+  color: #ec1d51;
+}
+header .nav-container nav .link-nav {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+header .nav-container img {
+  width: fit-content;
+  height: fit-content;
+  padding-top: 35px;
+  padding-left: 50px;
+}
+header .header-presentation-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px 0px;
+}
+header .header-presentation-content .header-text-content {
+  width: 25%;
+  height: auto;
+  text-align: center;
+}
+header .header-presentation-content .header-text-content p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+header .header-presentation-content .header-text-content h1 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+header .dita-logo-content {
+  width: 30%;
+  height: auto;
+  margin-left: 100px;
+}
+header .dita-logo-content .dita-logo {
+  height: 450px;
+  width: 100%;
+}
+header h1, header p, header a {
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+footer {
+  background-image: url("../images/footer-background.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+footer img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 30px;
+}
+footer .social-media-col-title {
+  color: white;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  font-family: "Kanit", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-text-content {
+  width: 20%;
+}
+footer .footer-text-content h4 {
+  color: white;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+footer .footer-text-content p {
+  color: white;
+  text-align: justify;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+}
+footer .social-media-column, footer .services-column, footer .legal-policy-column {
+  margin: 30px 0px;
+}
+footer .copyright-content {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  border-top: 1px solid white;
+  padding: 15px 0px;
+}
+
+.display-attributes, .features .features-content .features-row .feature, .features .features-content .features-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.features .features-content {
+  width: 80%;
+  margin: auto;
+}
+.features .features-content .features-row {
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+.features .features-content .features-row .feature {
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.features .features-content .features-row .feature .feature-icon {
+  height: auto;
+  width: auto;
+  color: white;
+  background-color: #EB2B63;
+  padding: 30px;
+  border-radius: 30px;
+}
+.features .features-content .features-row .feature h5 {
+  text-align: center;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.features .features-content .features-row .feature p {
+  text-align: center;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.plan-banner {
+  background-image: url("../images/banner-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.plan-banner p {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  text-align: justify;
+  margin-right: 100px;
+}
+
+.plan-cards {
+  margin-bottom: 150px;
+}
+.plan-cards .cards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.plan-cards .cards .card {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  border: none;
+}
+.plan-cards .cards .card .card-header {
+  background-color: #732BEB;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+.plan-cards .cards .card .card-body {
+  background-color: #f6f0fa;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.plan-cards .cards .card .card-body h5 {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 30px 0;
+}
+.plan-cards .cards .card .card-body p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
