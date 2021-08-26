@@ -141,6 +141,7 @@ footer .copyright-content {
 }
 .features .features-content .features-row {
   flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 150px;
 }
 .features .features-content .features-row .feature {

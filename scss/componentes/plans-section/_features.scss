@@ -13,6 +13,7 @@
     .features-row {
       @extend .display-attributes;
       flex-direction: row;
+      flex-wrap: wrap;
       margin-bottom: 150px;
 
       .feature {
