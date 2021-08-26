@@ -11,10 +11,15 @@
     flex-wrap: wrap;
 
     .card {
+      width: 400px;
+      margin-left: 20px;
       text-align: center;
       font-family: 'Kanit', sans-serif;
       padding: 0;
       border: none;
+      @media screen and (max-width: 1729px) {
+        margin-top: 20px;
+      }
 
       .card-header {
         background-color: #732BEB;
