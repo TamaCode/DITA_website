@@ -14,7 +14,7 @@
       @extend .display-attributes;
       flex-direction: row;
       margin-bottom: 150px;
-      @media only screen and (max-width: 491px) {
+      @media only screen and (max-width: 883px) {
         flex-wrap: wrap;
       }
 
@@ -22,6 +22,8 @@
         @extend .display-attributes;
         flex-direction: column;
         margin: 0px 20px;
+        width: 462.38px;
+        height: 262px;
 
         .feature-icon {
           height: auto;
