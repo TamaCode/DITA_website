@@ -141,8 +141,12 @@ footer .copyright-content {
 }
 .features .features-content .features-row {
   flex-direction: row;
-  flex-wrap: wrap;
   margin-bottom: 150px;
+}
+@media only screen and (max-width: 491px) {
+  .features .features-content .features-row {
+    flex-wrap: wrap;
+  }
 }
 .features .features-content .features-row .feature {
   flex-direction: column;

@@ -13,8 +13,10 @@
     .features-row {
       @extend .display-attributes;
       flex-direction: row;
-      flex-wrap: wrap;
       margin-bottom: 150px;
+      @media only screen and (max-width: 491px) {
+        flex-wrap: wrap;
+      }
 
       .feature {
         @extend .display-attributes;
