@@ -63,8 +63,8 @@ header .header-presentation-content .dita-logo-content {
   margin-left: 100px;
 }
 header .header-presentation-content .dita-logo-content .dita-logo {
-  height: 450px;
-  width: 450px;
+  height: auto;
+  width: 95%;
 }
 header h1, header p, header a {
   color: white;
@@ -78,8 +78,8 @@ footer {
   width: 100%;
 }
 footer img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   position: relative;
   top: 30px;
 }

@@ -267,6 +267,18 @@ footer a {
   justify-content: center;
 }
 
+@media only screen and (max-width: 299px) {
+  .img-content-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-content-2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .started-card-center-1 {
   border: 1px solid lightgreen;
   background-color: lightgreen;
@@ -284,22 +296,28 @@ footer a {
 
 .started-button-content {
   width: 70%;
-  margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 17.5%;
 }
 
-.started-button-content a {
-  position: relative;
-  left: 50%;
+@media only screen and (max-width: 1303px) {
+  .get-started-content {
+    background-image: url();
+  }
 }
 
-@media screen and (max-width: 1303px) {
+@media only screen and (min-width: 2305px) {
   .get-started-content {
     background-image: url();
   }
 }
 
 /* Seccion About Us, Services y Video */
+.video-div {
+  width: 600px;
+}
+
 .video-content, .service-content, .footer-content {
   display: flex;
   flex-direction: row;
@@ -351,14 +369,14 @@ iframe {
 
 .service-content img {
   height: 500px;
-  width: 600px;
+  width: 100%;
 }
 
 .statistics-content {
   background-image: url('../images/milestones-bg.jpg');
   background-position: center;
   background-size: cover;
-  padding: 100px 250px;
+  padding: 100px 20%;
 }
 
 .statistics-text {
@@ -423,6 +441,13 @@ iframe {
   width: 300px;
   height: 300px;
   border-radius: 200px;
+}
+
+@media only screen and (max-width: 299px) {
+  .team-member img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .team-member h2 {
