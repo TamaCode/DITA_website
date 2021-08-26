@@ -41,11 +41,12 @@ header .header-presentation-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 80px 0px;
 }
 header .header-presentation-content .header-text-content {
-  width: 25%;
-  height: auto;
+  width: 450px;
+  height: 450px;
   text-align: center;
 }
 header .header-presentation-content .header-text-content p {
@@ -56,14 +57,14 @@ header .header-presentation-content .header-text-content h1 {
   color: white;
   font-family: "Kanit", sans-serif;
 }
-header .dita-logo-content {
-  width: 30%;
-  height: auto;
+header .header-presentation-content .dita-logo-content {
+  width: fit-content;
+  height: fit-content;
   margin-left: 100px;
 }
-header .dita-logo-content .dita-logo {
+header .header-presentation-content .dita-logo-content .dita-logo {
   height: 450px;
-  width: 100%;
+  width: 450px;
 }
 header h1, header p, header a {
   color: white;

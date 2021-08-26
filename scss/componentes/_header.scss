@@ -48,11 +48,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 80px 0px;
 
     .header-text-content {
-      width: 25%;
-      height: auto;
+      width: 450px;
+      height: 450px;
       text-align: center;
 
       p {
@@ -65,16 +66,16 @@ header {
         font-family: 'Kanit', sans-serif;
       }
     }
-  }
 
-  .dita-logo-content {
-    width: 30%;
-    height: auto;
-    margin-left: 100px;
-
-    .dita-logo {
-      height: 450px;
-      width: 100%;
+    .dita-logo-content {
+      width: fit-content;
+      height: fit-content;
+      margin-left: 100px;
+  
+      .dita-logo {
+        height: 450px;
+        width: 450px;
+      }
     }
   }
 
