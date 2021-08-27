@@ -367,4 +367,50 @@ footer .copyright-content {
   margin-left: 17.5%;
 }
 
+.statistics-content {
+  background-image: url("../images/milestones-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 20%;
+}
+.statistics-content .statistics-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.statistics-content .statistics-text div {
+  width: 80%;
+}
+.statistics-content .statistics-text p {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+}
+.statistics-content .statistics-rates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.statistics-content .statistics-rates .rate img {
+  width: 130px;
+  height: 130px;
+}
+.statistics-content .statistics-rates .rate h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+.statistics-content .statistics-rates .rate p {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

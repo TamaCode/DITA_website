@@ -372,7 +372,7 @@ iframe {
   width: 100%;
 }
 
-.statistics-content {
+/* .statistics-content {
   background-image: url('../images/milestones-bg.jpg');
   background-position: center;
   background-size: cover;
@@ -423,7 +423,7 @@ iframe {
   color: white;
   font-family: 'Kanit', sans-serif;
   text-align: center;
-}
+} */
 
 .team-content {
   display: flex;

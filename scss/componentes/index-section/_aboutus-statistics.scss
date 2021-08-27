@@ -1,0 +1,54 @@
+.statistics-content {
+  background-image: url('../images/milestones-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 100px 20%;
+
+  .statistics-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    div {
+      width: 80%;
+    }
+
+    p {
+      color: white;
+      font-family: 'Kanit', sans-serif;
+      font-weight: 100;
+    }
+  }
+
+  .statistics-rates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px ;
+
+    .rate {
+      img {
+        width: 130px;
+        height: 130px;
+      }
+      
+      h2 {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+      }
+      
+      p {
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+      }
+    }
+  }
+}
