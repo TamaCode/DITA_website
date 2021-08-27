@@ -207,7 +207,7 @@ footer a {
 
 /************************ ESTILOS DE INDEX  ************************/
 /* ESTILOS GET STARTED */
-.get-started {
+/* .get-started {
   margin-bottom: 300px;
 }
 .get-started-content {
@@ -311,7 +311,7 @@ footer a {
   .get-started-content {
     background-image: url();
   }
-}
+} */
 
 /* Seccion About Us, Services y Video */
 .video-div {
@@ -598,14 +598,14 @@ iframe {
 } */
 
 /************************ ESTILOS DE CONTACT  ************************/
-.contact {
+/* .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 /* ESTILOS DE FORMULARIO */
-.contact form {
+/* .contact form {
   color: white;
   background: linear-gradient(to bottom, rgb(1, 1, 148), purple);
   font-family: 'Kanit', sans-serif;
@@ -626,4 +626,4 @@ form h4 {
 form #message {
   width: 500px;
   height: 250px;
-}
+} */

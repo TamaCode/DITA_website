@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form {
+    color: white;
+    background: linear-gradient(to bottom, rgb(1, 1, 148), purple);
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    margin-bottom: 200px;
+    padding: 50px 50px;
+    border-radius: 100px;
+    @media only screen and (max-width: 589px) {
+      width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: white;
+    }
+
+    h4 {
+      font-size: 40px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.get-started {
+  margin-bottom: 300px;
+
+  h4 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  h5 {
+    color: rgb(173, 173, 173);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+  .get-started-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-image: url("../images/get-started/xdots.webp");
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    @media only screen and (max-width: 1303px) {
+      background-image: url();
+    }
+
+    @media only screen and (min-width: 2305px) {
+      background-image: url();
+    }
+
+    .started-card {
+      margin-left: 100px;
+
+      .img-content-1 {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        border: 1px solid lightgray;
+        background-color: lightgray;
+        border-radius: 900px;
+        display: flex;
+        align-items: center;
+        @media only screen and (max-width: 299px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .img-content-2 {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border: 1px solid lightslategrey;
+        background-color: rgb(187, 187, 190);
+        border-radius: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media only screen and (max-width: 299px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .started-card-center-1 {
+        border: 1px solid lightgreen;
+        background-color: lightgreen;
+      }
+      
+      .started-card-center-2 {
+        border: 1px solid rgb(82, 170, 82);
+        background-color: rgb(82, 170, 82);
+      }
+    }
+  }
+
+  .started-button-content {
+    width: 70%;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 17.5%;
+  }
+}
