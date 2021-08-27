@@ -413,4 +413,51 @@ footer .copyright-content {
   text-align: center;
 }
 
+.team-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 200px;
+  margin-top: 150px;
+}
+.team-content .team-member img {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+}
+@media only screen and (max-width: 299px) {
+  .team-content .team-member img {
+    width: 100%;
+    height: auto;
+  }
+}
+.team-content .team-member h2 {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.team-content .team-member p {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+}
+.team-content .team-member ul {
+  list-style-type: none;
+  text-align: center;
+  width: 90%;
+}
+.team-content .team-member li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 5px;
+}
+.team-content .team-member a {
+  color: #5d3088;
+}
+
 /*# sourceMappingURL=style.css.map */
