@@ -4,59 +4,63 @@ footer {
   background-size: cover;
   width: 100%;
 
-  img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 30px;
-  }
+  .footer-content {
+    @extend %section-content;
 
+    img {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 30px;
+    }
   
-  .social-media-col-title {
-    color: white;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 500;
-    margin-bottom: 5px;
-  }
-  
-
-  ul {
-    list-style-type: none;
-  }
-
-  li {
-    font-family: 'Kanit', sans-serif;
-    font-size: 15px;
-    font-weight: 200;
-    margin-bottom: 5px;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  .footer-text-content {
-    width: 20%;
-
-    h4 {
+    
+    .social-media-col-title {
       color: white;
       text-align: center;
       font-family: 'Kanit', sans-serif;
-      font-weight: 300;
+      font-weight: 500;
+      margin-bottom: 5px;
     }
-
-    p {
-      color: white;
-      text-align: justify;
+    
+  
+    ul {
+      list-style-type: none;
+    }
+  
+    li {
       font-family: 'Kanit', sans-serif;
+      font-size: 15px;
       font-weight: 200;
+      margin-bottom: 5px;
     }
-  }
-
-  .social-media-column, .services-column, .legal-policy-column {
-    margin: 30px 0px;
+  
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    .footer-text-content {
+      width: 20%;
+  
+      h4 {
+        color: white;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+      }
+  
+      p {
+        color: white;
+        text-align: justify;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 200;
+      }
+    }
+  
+    .social-media-column, .services-column, .legal-policy-column {
+      margin: 30px 0px;
+    }
   }
 
   .copyright-content {

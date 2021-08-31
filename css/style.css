@@ -24,7 +24,7 @@
   text-align: justify;
 }
 
-.services .service-content, .video .video-content {
+.services .service-content, .video .video-content, footer .footer-content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -111,48 +111,48 @@ footer {
   background-size: cover;
   width: 100%;
 }
-footer img {
+footer .footer-content img {
   width: 100%;
   height: auto;
   position: relative;
   top: 30px;
 }
-footer .social-media-col-title {
+footer .footer-content .social-media-col-title {
   color: white;
   text-align: center;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   margin-bottom: 5px;
 }
-footer ul {
+footer .footer-content ul {
   list-style-type: none;
 }
-footer li {
+footer .footer-content li {
   font-family: "Kanit", sans-serif;
   font-size: 15px;
   font-weight: 200;
   margin-bottom: 5px;
 }
-footer a {
+footer .footer-content a {
   color: white;
   text-decoration: none;
 }
-footer .footer-text-content {
+footer .footer-content .footer-text-content {
   width: 20%;
 }
-footer .footer-text-content h4 {
+footer .footer-content .footer-text-content h4 {
   color: white;
   text-align: center;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
 }
-footer .footer-text-content p {
+footer .footer-content .footer-text-content p {
   color: white;
   text-align: justify;
   font-family: "Kanit", sans-serif;
   font-weight: 200;
 }
-footer .social-media-column, footer .services-column, footer .legal-policy-column {
+footer .footer-content .social-media-column, footer .footer-content .services-column, footer .footer-content .legal-policy-column {
   margin: 30px 0px;
 }
 footer .copyright-content {
