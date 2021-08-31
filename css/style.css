@@ -555,6 +555,7 @@ footer .copyright-content {
 }
 .video p {
   color: white;
+  font-weight: 100;
 }
 .video .video-content .video-text-content {
   width: 40%;
