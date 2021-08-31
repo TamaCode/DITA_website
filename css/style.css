@@ -9,7 +9,7 @@
   margin: 20px 0px;
 }
 
-.services h3, .video h3, .aboutus h3, .get-started h3, .contact h3, .plan-cards h3, .features h3 {
+.services h3, .aboutus h3, .get-started h3, .contact h3, .plan-cards h3, .features h3 {
   color: black;
   font-family: "Kanit", sans-serif;
   font-size: 40px;
@@ -346,7 +346,7 @@ footer .copyright-content {
 }
 
 .get-started {
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 .get-started h4 {
   text-align: center;
@@ -533,11 +533,21 @@ footer .copyright-content {
   color: #5d3088;
 }
 
-.video .video-content {
-  margin: 200px 0px;
+.video {
+  background-image: url("../images/milestones-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 150px 70px;
+}
+.video h4 {
+  color: white;
+}
+.video p {
+  color: white;
 }
 .video .video-content .video-text-content {
   width: 40%;
+  padding-right: 50px;
 }
 .video .video-content .video-text-content .video-link {
   font-size: 20px;

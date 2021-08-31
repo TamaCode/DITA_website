@@ -1,21 +1,25 @@
 .video {
+  background-image: url('../images/milestones-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 150px 70px;
+
   h4 {
     @extend %section-h4;
-  }
-
-  h3 {
-    @extend %section-h3;
+    color: white;
   }
 
   p {
     @extend %section-p;
+    color: white;
   }
   .video-content {
-    margin: 200px 0px;
+    // margin: 200px 0px;
     @extend %section-content;
 
     .video-text-content {
       width: 40%;
+      padding-right: 50px;
 
       .video-link{
         font-size: 20px;
