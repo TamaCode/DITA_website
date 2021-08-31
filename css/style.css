@@ -9,14 +9,14 @@
   margin: 20px 0px;
 }
 
-.services h3, .video h3 {
+.services h3, .video h3, .aboutus h3 {
   color: black;
   font-family: "Kanit", sans-serif;
   font-size: 40px;
   text-align: center;
 }
 
-.services p, .video p {
+.services p, .video p, .aboutus p {
   color: black;
   font-family: "Kanit", sans-serif;
   font-weight: 300;
@@ -447,7 +447,7 @@ footer .copyright-content {
   text-align: center;
 }
 
-.team-content {
+.aboutus .team-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -458,39 +458,39 @@ footer .copyright-content {
   margin-bottom: 200px;
   margin-top: 150px;
 }
-.team-content .team-member img {
+.aboutus .team-content .team-member img {
   width: 300px;
   height: 300px;
   border-radius: 200px;
 }
 @media only screen and (max-width: 299px) {
-  .team-content .team-member img {
+  .aboutus .team-content .team-member img {
     width: 100%;
     height: auto;
   }
 }
-.team-content .team-member h2 {
+.aboutus .team-content .team-member h2 {
   color: black;
   font-family: "Kanit", sans-serif;
   text-align: center;
   padding-top: 20px;
 }
-.team-content .team-member p {
+.aboutus .team-content .team-member p {
   color: black;
   font-family: "Kanit", sans-serif;
   text-align: center;
 }
-.team-content .team-member ul {
+.aboutus .team-content .team-member ul {
   list-style-type: none;
   text-align: center;
   width: 90%;
 }
-.team-content .team-member li {
+.aboutus .team-content .team-member li {
   display: inline-block;
   font-size: 20px;
   margin: 0px 5px;
 }
-.team-content .team-member a {
+.aboutus .team-content .team-member a {
   color: #5d3088;
 }
 

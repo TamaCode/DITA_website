@@ -330,22 +330,14 @@ footer a {
   margin: 200px 0px;
 } */
 
-.aboutus h4 {
-  color: black;
-  font-family: 'Kanit', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  margin: 20px 0px;
-}
-
-.aboutus h3, .get-started h3, .contact h3, .features h3, .plan-cards h3 {
+.get-started h3, .contact h3, .features h3, .plan-cards h3 {
   color: black;
   font-family: 'Kanit', sans-serif;
   font-size: 40px;
   text-align: center;
 }
 
-.aboutus p, .get-started p, .contact p, .features p, .plan-cards p {
+.get-started p, .contact p, .features p, .plan-cards p {
   color: black;
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
