@@ -9,14 +9,14 @@
   margin: 20px 0px;
 }
 
-.services h3, .video h3, .aboutus h3, .get-started h3, .contact h3, .features h3 {
+.services h3, .video h3, .aboutus h3, .get-started h3, .contact h3, .plan-cards h3, .features h3 {
   color: black;
   font-family: "Kanit", sans-serif;
   font-size: 40px;
   text-align: center;
 }
 
-.services p, .video p, .aboutus p, .get-started p, .contact p, .features p {
+.services p, .video p, .aboutus p, .get-started p, .contact p, .plan-cards p, .features p {
   color: black;
   font-family: "Kanit", sans-serif;
   font-weight: 300;

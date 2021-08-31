@@ -1,6 +1,14 @@
 .plan-cards {
   margin-bottom: 150px;
 
+  h3 {
+    @extend %section-h3;
+  }
+
+  p{
+    @extend %section-p;
+  }
+
   .cards {
     width: 80%;
     margin: auto;
