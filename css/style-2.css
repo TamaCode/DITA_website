@@ -330,14 +330,14 @@ footer a {
   margin: 200px 0px;
 } */
 
-.contact h3, .features h3, .plan-cards h3 {
+.features h3, .plan-cards h3 {
   color: black;
   font-family: 'Kanit', sans-serif;
   font-size: 40px;
   text-align: center;
 }
 
-.contact p, .features p, .plan-cards p {
+.features p, .plan-cards p {
   color: black;
   font-family: 'Kanit', sans-serif;
   font-weight: 300;
