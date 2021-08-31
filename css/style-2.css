@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap'); */
 
 /* Reseto estilos predeterminados de HTML5 */
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 /* ESTILO BOTONES */
-button {
+/* button {
   color: white;
   font-family: 'Kanit', sans-serif;
   font-size: 20px;
@@ -23,24 +23,17 @@ button {
 
 button:hover {
   transform: scale(1.2);
-}
+} */
 
 /* ESTILO DE TITULOS DE SECCIONES */
-.titles-content {
+/* .titles-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 150px 0px 100px 0px;
-}
+} */
 
-.get-started .titles-content, .contact .titles-content, .features .titles-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px 0px 200px 0px;
-}
-
-.secondary-titles-content {
+/* .secondary-titles-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +42,7 @@ button:hover {
 .secondary-titles-content img {
   height: fit-content;
   width: fit-content;
-}
+} */
 
 /* Estilos de Footer y Header */
 /* header {

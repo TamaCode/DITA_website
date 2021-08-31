@@ -32,6 +32,45 @@
   flex-wrap: wrap;
 }
 
+/* Reseto estilos predeterminados de HTML5 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ESTILO BOTONES */
+button {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  background-color: #ec1d51;
+  border: 1px solid #ec1d51;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover {
+  transform: scale(1.2);
+}
+
+/* ESTILO DE TITULOS DE SECCIONES */
+.titles-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px 150px 0px;
+}
+.titles-content .secondary-titles-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titles-content .secondary-titles-content img {
+  height: fit-content;
+  width: fit-content;
+}
+
 header {
   background-image: url("../images/space-background.webp");
   background-size: cover;
