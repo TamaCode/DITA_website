@@ -1,0 +1,33 @@
+.services {
+  h3 {
+    @extend %section-h3;
+  }
+
+  p{
+    @extend %section-p;
+  }
+
+  .service-content {
+    margin: 200px 0px;
+    @extend %section-content;
+
+    img {
+      height: 500px;
+      width: 100%;
+    }
+
+    .service-description-content {
+      width: 40%;
+
+      h4 {
+        @extend %section-h4;
+      }
+
+      .service-link {
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+  }
+}
