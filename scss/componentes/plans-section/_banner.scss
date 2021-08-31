@@ -9,6 +9,11 @@
   align-items: center;
   flex-wrap: wrap;
 
+  @media only screen and (max-width: 434px) {
+    height: auto;
+    padding: 50px;
+  }
+
   p {
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -16,5 +21,9 @@
     font-size: 27px;
     text-align: justify;
     margin-right: 100px;
+
+    @media only screen and (max-width: 434px) {
+      text-align: right;
+    }
   }
 }

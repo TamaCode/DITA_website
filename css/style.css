@@ -225,7 +225,7 @@ footer .copyright-content {
   flex-direction: column;
   margin: 0px 20px;
   width: 462.38px;
-  height: 262px;
+  height: auto;
 }
 .features .features-content .features-row .feature .feature-icon {
   height: auto;
@@ -262,6 +262,12 @@ footer .copyright-content {
   align-items: center;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 434px) {
+  .plan-banner {
+    height: auto;
+    padding: 50px;
+  }
+}
 .plan-banner p {
   color: white;
   font-family: "Kanit", sans-serif;
@@ -269,6 +275,11 @@ footer .copyright-content {
   font-size: 27px;
   text-align: justify;
   margin-right: 100px;
+}
+@media only screen and (max-width: 434px) {
+  .plan-banner p {
+    text-align: right;
+  }
 }
 
 .plan-cards {
