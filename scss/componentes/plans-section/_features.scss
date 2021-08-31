@@ -1,4 +1,4 @@
-.display-attributes {
+%display-attributes {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,7 +11,7 @@
     margin: auto;
 
     .features-row {
-      @extend .display-attributes;
+      @extend %display-attributes;
       flex-direction: row;
       margin-bottom: 150px;
       @media only screen and (max-width: 883px) {
@@ -19,7 +19,7 @@
       }
 
       .feature {
-        @extend .display-attributes;
+        @extend %display-attributes;
         flex-direction: column;
         margin: 0px 20px;
         width: 462.38px;

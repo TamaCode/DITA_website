@@ -163,7 +163,7 @@ footer .copyright-content {
   padding: 15px 0px;
 }
 
-.display-attributes, .features .features-content .features-row .feature, .features .features-content .features-row {
+.features .features-content .features-row .feature, .features .features-content .features-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
