@@ -1,0 +1,35 @@
+.video {
+  h4 {
+    @extend %section-h4;
+  }
+
+  h3 {
+    @extend %section-h3;
+  }
+
+  p {
+    @extend %section-p;
+  }
+  .video-content {
+    margin: 200px 0px;
+    @extend %section-content;
+
+    .video-text-content {
+      width: 40%;
+
+      .video-link{
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+
+    .video-div {
+      width: 600px;
+    
+      iframe {
+        margin-top: 50px;
+      }
+    }
+  }
+}

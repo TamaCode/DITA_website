@@ -1,3 +1,7 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap');
+@import 'base/extends';
 @import 'componentes/header';
 @import 'componentes/footer';
 @import 'componentes/plans-section/features';
@@ -7,3 +11,4 @@
 @import 'componentes/index-section/get-started';
 @import 'componentes/index-section/aboutus-statistics';
 @import 'componentes/index-section/aboutus-team-member';
+@import 'componentes/index-section/video';

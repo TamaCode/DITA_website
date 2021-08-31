@@ -1,3 +1,37 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap");
+.video h4 {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.video h3 {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.video p {
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.video .video-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 header {
   background-image: url("../images/space-background.webp");
   background-size: cover;
@@ -458,6 +492,24 @@ footer .copyright-content {
 }
 .team-content .team-member a {
   color: #5d3088;
+}
+
+.video .video-content {
+  margin: 200px 0px;
+}
+.video .video-content .video-text-content {
+  width: 40%;
+}
+.video .video-content .video-text-content .video-link {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.video .video-content .video-div {
+  width: 600px;
+}
+.video .video-content .video-div iframe {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
