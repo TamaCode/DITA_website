@@ -356,6 +356,43 @@ footer .copyright-content {
   font-size: 40px;
 }
 
+.localization .localization-content {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  background-image: url("../images/milestones-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.localization .localization-content .localization-info {
+  text-align: center;
+  margin-right: 50px;
+}
+.localization .localization-content .localization-info h4 {
+  font-weight: 700;
+}
+.localization .localization-content .localization-info p {
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+.localization .localization-content .localization-info .telephone-info {
+  margin: 50px 0px;
+}
+.localization .localization-content .localization-info .email-info {
+  margin-bottom: 30px;
+}
+.localization .localization-content .localization-map {
+  width: 60%;
+}
+.localization .localization-content .localization-map iframe {
+  width: 100%;
+}
+
 .get-started {
   margin-bottom: 150px;
 }
